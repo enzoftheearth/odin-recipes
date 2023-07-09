@@ -1,0 +1,55 @@
+body {
+    background-color: #fffde8;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+div {
+    font-size: 24px;
+    font-family: "garamond";
+    text-align: center;
+    letter-spacing: normal;
+}
+
+h1.header-one {
+    font-family: "Brush Script MT";
+    font-weight: 200;
+    letter-spacing: 1em;
+    font-size: 58px;
+}
+
+h2.header-two {
+    font-family: "Brush Script MT";
+    font-weight: 200;
+    letter-spacing: 1em;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3.header-three {
+    font-family: "Brush Script MT";
+    font-weight: 200;
+    letter-spacing: 1em;
+    font-size: 30px;
+}
+
+p.main {
+    font-size: 24px;
+    text-align: center;
+}
+
+ol.ordered-list,
+ul.unordered-list {
+    font-size: 18px;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
