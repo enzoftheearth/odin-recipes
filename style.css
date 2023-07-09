@@ -1,0 +1,41 @@
+body {
+    background-color: #fffde8;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+div {
+    font-size: 24px;
+    font-family: "garamond";
+    text-align: center;
+    letter-spacing: normal;
+}
+
+h1.header {
+    font-family: "Brush Script MT";
+    font-weight: 200;
+    letter-spacing: 1em;
+    font-size: 58px;
+}
+
+
+p.main {
+    font-size: 24px;
+    text-align: center;
+}
+
+p.second {
+    font-size: 30px;
+    letter-spacing: 1em;
+}
+
+.recipe-links {
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 24px;
+    word-spacing: normal;
+}
+
