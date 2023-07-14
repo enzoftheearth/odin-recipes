@@ -1,4 +1,5 @@
-body {
+* {
+    margin: 0px;
     background-color: #fffde8;
 }
 
@@ -6,50 +7,63 @@ a {
     text-decoration: none;
 }
 
-
-div {
-    font-size: 24px;
-    font-family: "garamond";
-    text-align: center;
-    letter-spacing: normal;
-}
-
 h1.header-one {
     font-family: "Brush Script MT";
     font-weight: 200;
-    letter-spacing: 1em;
+    letter-spacing: 0.25em;
     font-size: 58px;
-}
-
-h2.header-two {
-    font-family: "Brush Script MT";
-    font-weight: 200;
-    letter-spacing: 1em;
-    font-size: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
     text-align: center;
 }
 
-h3.header-three {
+h2.header-two, h3.header-four {
     font-family: "Brush Script MT";
     font-weight: 200;
-    letter-spacing: 1em;
+    letter-spacing: 0.25em;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    padding: 2px;
+    border-radius: 7px / 7px;
+    background-color: #fffabf;
+}
+
+span.header-three {
+    font-family: "Brush Script MT";
+    letter-spacing: 0.25em;
     font-size: 30px;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 2px solid grey;
+    border-radius: 7px / 7px;
+    background-color: #fffabf;
 }
 
 p.main {
+    margin-bottom: 30px;
     font-size: 24px;
-    text-align: center;
 }
 
-ol.ordered-list,
-ul.unordered-list {
-    font-size: 18px;
+div.left, span {
+    display: inline-block;
+    width: 250px;
+    letter-spacing: -1px;
+    font-size: 24px;
+    margin-right: 20px;
     text-align: left;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+div.right {
+    display: inline-block;
+    width: 750px;
+    position: fixed;
+    font-size: 24px;
+    font-family: "garamond";
+    letter-spacing: normal;
+    text-align: left;
+    padding: 10px;
 }
