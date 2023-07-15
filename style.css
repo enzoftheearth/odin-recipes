@@ -60,24 +60,23 @@ Inline block coding, fucking around with it for flex, gotta save it though */
 
 * {
     margin: 0;
-    font-family: "Ysabeu Office";
+    font-family: "Ysabeau Office";
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
     background-color: #fffde8;
 }
 
-.container{
+.container {
     height: 800px;
     background: yellow;
     border: 2px dotted black;
     display: flex;
-}
-
-.background-img {
-
-
-
+    width: 100%;
 }
 
 .right {
@@ -101,5 +100,37 @@ body {
     font-size: 24px;
     text-align: center;
     background: lightpink;
-    width: 400px;
+    width: 300px;
+    height: inherit;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 24px;
+    background: white;
+    width: 100%;
+    max-height: inherit;
+}
+
+.link-a, .link-b, .link-c {
+    background-color: red;
+    overflow: hidden;
+}
+
+img.imgs {
+    flex: 1;
+    flex-direction: column;
+    max-height: 200px;
+    width: 80%px;
+    object-fit: cover;
+}
+
+.links img:hover {
+    transform: scale(0.5);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px brown;
 }
