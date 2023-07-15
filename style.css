@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
 }
 
@@ -8,10 +8,6 @@ body {
 
 a {
     text-decoration: none;
-}
-
-img.img {
-    object-fit: cover;
 }
 
 
@@ -38,15 +34,6 @@ div.main {
 }
 
 
-.video {
-    display: inline-block;
-    width: 100%;
-    height: 300px;
-    border-bottom: 2px black solid;
-    margin: 0;
-
-}
-
 h1 {
     font-family: "Brush Script MT";
     font-weight: 200;
@@ -66,4 +53,53 @@ p.second {
     letter-spacing: 0.5em;
     margin: 80px 0;
     text-align: center;
+}
+
+Inline block coding, fucking around with it for flex, gotta save it though */
+
+
+* {
+    margin: 0;
+    font-family: "Ysabeu Office";
+}
+
+body {
+    background-color: #fffde8;
+}
+
+.container{
+    height: 800px;
+    background: yellow;
+    border: 2px dotted black;
+    display: flex;
+}
+
+.background-img {
+
+
+
+}
+
+.right {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    font-size: 24px;
+    background: white;
+    width: 100%;
+    max-height: inherit;
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+    background-image: url(./images/pizza-medium.jpg);
+}
+
+.left {
+    display: flex;
+    flex: initial;
+    flex-direction: row;
+    font-size: 24px;
+    text-align: center;
+    background: lightpink;
+    width: 400px;
 }
