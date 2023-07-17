@@ -1,4 +1,96 @@
 * {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fffde8;
+    display: flex;
+}
+
+div.big-boi {
+    display: flex;
+    flex-direction: column;
+}
+
+div.title {
+    align-self: center;
+    font-size: 60px;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: 5px dotted black;
+}
+
+.left {
+    display: flex;
+    flex: 1 2 150;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid pink;
+}
+
+div.ingredients {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    height: 100%;
+    border: 2px dotted green;
+}
+
+.unordered-list {
+    
+}
+
+.right {
+    display: flex;
+    flex-basis: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 0px;
+    border: 2px solid yellow;
+}
+
+div.header-three {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+div.description-text {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+div.header-four {
+    align-self: flex-start;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ordered-list {
+    align-self: flex-start;
+}
+
+
+/*
+* {
     margin: 0px;
     background-color: #fffde8;
 }
@@ -67,3 +159,4 @@ div.right {
     text-align: left;
     padding: 10px;
 }
+*/
